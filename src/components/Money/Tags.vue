@@ -35,6 +35,7 @@ export default class Tags extends Vue {
       this.$emit('update:dataSource',
           [...this.dataSource, name]);
     }
+    this.$emit('update:value', this.selectedTags)
   }
 }
 </script>
