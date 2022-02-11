@@ -11,7 +11,9 @@ import {Component} from 'vue-property-decorator';
 
 @Component
 export default class EditLabel extends Vue{
-
+  created(){
+    console.log(this.$route.params);
+  }
 }
 </script>
 
