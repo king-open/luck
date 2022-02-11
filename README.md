@@ -1,4 +1,4 @@
-# sun
+# luck 记账
 
 ## Project setup
 ```
