@@ -27,7 +27,7 @@ const routes: Array<RouteConfig> = [
     component: Statistics
   },
   {
-    path:'/labels/edit/:id',
+    path:'/labels/edit/:id', // 来表示 名字的 是fuck 还是 id
     component:EditLabel
   },
   {
